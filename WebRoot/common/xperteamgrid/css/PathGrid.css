@@ -1,0 +1,182 @@
+div.tableContainer {	
+	width: 100%;		 		/* table width will be 99% of this*/
+	height:200px;		 		/* must be greater than tbody*/
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.mainTable {
+	width: 99%;		/*100% of container produces horiz. scroll in Mozilla*/		
+	border: none;		
+}
+
+
+/*
+ * Specific Firefox. Only Modern browser are able to interpret > . IE is not a modern browser
+ */
+.mainTable>tbody{
+	overflow: auto;
+	height:130px;
+	overflow-x: hidden;
+}
+
+/*
+ * Traget is IE5+ only. Only IE is able to interpret this kind of horrible expression Script
+ * ----------
+ * FOR HEADER
+ */
+thead tr {
+	position:relative;
+	top: expression(offsetParent.scrollTop);
+}
+
+/*
+ * Traget is IE5+ only. Only IE is able to interpret this kind of horrible expression Script
+ * ----------
+ * FOR FOOTER
+ * ----------
+ * Some explaination :
+ * with pseudo code :
+ * if (scroll_is_needed){
+ * 	top = container_height + table_scrollTop - table_Height
+ * } else {
+ * 	//tfoot should be at the same place if there is a scroll or not
+ *	top = container_height - table_height;
+ * }
+ */
+.mainTable tfoot tr {
+      position: relative;
+      overflow-x: hidden;
+      top: expression(parentNode.parentNode.offsetHeight >= offsetParent.offsetHeight ?
+		offsetParent.offsetHeight + offsetParent.scrollTop - parentNode.parentNode.offsetHeight :
+		offsetParent.offsetHeight - parentNode.parentNode.offsetHeight);
+}
+
+/*
+ * Classical Css
+ */
+thead td, thead th {
+	text-align: center;
+	background-color: #C3C3C3;
+	font-size : 12px;
+	color: white;
+	font-weight: bold;
+}
+
+tfoot td {
+	height:20px;
+	text-align: center;
+	background-color: #C3C3C3;
+	font-size : 12px;
+	color: white;	
+	font-weight: bold;
+}
+
+/*
+ * FF scroll hide last column.
+ * prevent this case
+ */
+td:last-child {
+	padding-right: 20px;
+}
+
+.hdrtd {
+	color:#FFFFFF;
+	border:0px;
+	background-Color:#999999;
+	text-align: center;
+	margin:0px;
+	padding:2px 0px 2px 0px ;
+	font-weight:bold;
+    -moz-user-select:none;
+    overflow:hidden;   	         
+	}
+	
+.hdrcell{
+	border-left: 1px solid white;
+	border-right: 1px solid gray;
+	height:14px;
+	white-space : nowrap;
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+.obj_td {
+	border-width: 0px 0px 0px 0px;
+	font-family:Tahoma;
+	font-size:11px;
+	padding:2px 2px 2px 2px ;
+	white-space : nowrap;
+	text-align: center;
+}
+
+.obj_arrow_td {
+	border-width: 0px 0px 0px 0px;
+	font-family:Tahoma;
+	font-size:11px;
+	padding:2px 2px 2px 2px ;
+	white-space : nowrap;
+	text-align: right;
+	width: 50%;
+}
+
+.obj_img_td {
+	border-width: 0px 0px 0px 0px;
+	padding:2px 2px 2px 2px ;
+	white-space : nowrap;
+	align:left;
+	width: 50%;
+}
+
+.obj_odd_tr{
+	background-color:#DFDFDF;
+	border-width: 0px 0px 0px 0px;
+	font-family:Tahoma;
+	font-size:11px;
+	padding:2px 2px 2px 2px ;
+	white-space : nowrap;
+	text-align: center;
+}
+
+.obj_tr{
+	background-color: #f7f7f7;
+	border-width: 0px 0px 0px 0px;
+	font-family:Tahoma;
+	font-size:11px;
+	padding:2px 2px 2px 2px ;
+	white-space : nowrap;
+	text-align: center;
+}
+
+.hdrLabeltd {
+	color:#FFFFFF;
+	border:0px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	background-Color:#999999;
+	text-align: center;
+	margin:0px;
+	padding:2px 0px 2px 0px ;
+	font-weight:bold;
+    -moz-user-select:none;
+    overflow:hidden;
+	}	
+
+.pageNumClass {
+    background-color: silver;
+    height:14px;
+    width:100px;
+    border:none;
+    font-size:10px;
+    font-family:Arial;
+}
+
+.nbRecPerPageClass {
+	text-align: center;
+    height:14px;
+    width:40px;
+    border:none;
+    font-size:9px;    
+    font-family:Times New Roman";    
+}
+

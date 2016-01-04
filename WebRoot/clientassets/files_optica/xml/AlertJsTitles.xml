@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<properties>
+	<!-- ************************************* Begin Xperteam *************************************-->
+	
+
+	<!-- ************************************* End Xperteam *************************************-->
+
+
+
+	<!-- ************************************* A *************************************-->
+    <entry key="accountNoDoNotExist_Eng">Account Number does not exist</entry>
+    <entry key="accountNoDoNotExist_Arb">إن رقم الحساب غير موجود</entry>
+    <entry key="accountNoDoNotExist_Fr">Le numéro du compte n'existe pas</entry>
+
+    <entry key="accountAlreadyInUseForThisCardType_Eng">Selected Account(s) is already in use for this card type</entry>
+    <entry key="accountAlreadyInUseForThisCardType_Arb">سبق ان تم استعمال هذا الحساب لهذا النوع من البطاقة</entry>
+    <entry key="accountAlreadyInUseForThisCardType_Fr">Le compte sélectionné est déja utilisé pour ce type de carte</entry>
+    
+    <entry key="allMonths_Eng">All Months</entry>
+	<entry key="allMonths_Arb"> الأشهر كافة</entry>
+	<entry key="allMonths_Fr">Tous les mois</entry>
+
+    <entry key="allPeriodicityFieldsMustBeFilledBeforeViewingSchedule_Eng">All periodicity fields must be filled before viewing schedule.</entry>
+    <entry key="allPeriodicityFieldsMustBeFilledBeforeViewingSchedule_Arb">يجب ملء كافة حقول بيانات الفترة المحاسبية الدورية قبل الإطلاع على الجدول </entry>
+    <entry key="allPeriodicityFieldsMustBeFilledBeforeViewingSchedule_Fr">Tous les champs de la périodicité doivent être remplis avant de visualiser le programme </entry>
+    
+    <entry key="amount_Eng">Amount</entry>
+    <entry key="amount_Arb">مبلغ</entry>
+    <entry key="amount_Fr">Montant</entry>
+
+    <entry key="amountMustBeGreaterThan_Eng">Amount must be greater than</entry>
+    <entry key="amountMustBeGreaterThan_Arb">يجب أن يفوق المبلغ</entry>
+    <entry key="amountMustBeGreaterThan_Fr">Le montant doit dépasser</entry>
+
+    <entry key="amountMustBeGreaterThanDefaultValue_Eng">Amount must be greater or equal to</entry>
+    <entry key="amountMustBeGreaterThanDefaultValue_Arb"> يجب أن يفوق المبلغ .....</entry>
+    <entry key="amountMustBeGreaterThanDefaultValue_Fr">Le montant doit dépasser</entry>
+
+    <entry key="amountExceedBalance _Eng">Amount Exceeds available Balance</entry>
+    <entry key="amountExceedBalance _Arb"> يتعدى المبلغ الرصيد المتوافر</entry>
+    <entry key="amountExceedBalance _Fr">Le montant dépasse le solde disponible</entry>
+    
+    <entry key="amountMustBeLessThan_Eng">Amount must be less than</entry>
+    <entry key="amountMustBeLessThan_Arb"> يجب ألا يتعدى المبلغ </entry>
+    <entry key="amountMustBeLessThan_Fr">Le montant doit être inférieur à</entry>
+
+    <entry key="amountExceedsBalance_Eng">Amount Exceeds available Balance</entry>
+    <entry key="amountExceedsBalance_Arb">يتعدى المبلغ الرصيد المتوافر</entry>
+    <entry key="amountExceedsBalance_Fr">Le montant dépasse le solde disponible</entry>
+    
+    <entry key="amountExceedsLimit_Eng">Maximum daily limit exceeded</entry>
+    <entry key="amountExceedsLimit_Arb">لقد تخطيت الحد الأقصى اليومي للتحويلات</entry>
+    <entry key="amountExceedsLimit_Fr">la limite maximale par jour a été depassée</entry>
+    
+    <entry key="amountDesiredMustBeNumber_Eng">Amount Desired Must Be Number</entry>
+    <entry key="amountDesiredMustBeNumber_Arb">amountDesiredMustBeNumber</entry>
+    <entry key="amountDesiredMustBeNumber_Fr">amountDesiredMustBeNumber</entry>
+    
+    <entry key="accessoriesMustBeNumber_Eng">Accessories Must Be Number</entry>
+    <entry key="accessoriesMustBeNumber_Arb">accessoriesMustBeNumber</entry>
+    <entry key="accessoriesMustBeNumber_Fr">accessoriesMustBeNumber</entry>
+    
+
+    <entry key="and_Eng">and</entry>
+    <entry key="and_Arb">و</entry>
+    <entry key="and_Fr">et</entry>
+
+    <entry key="annualYieldRateMustBeInteger_Eng">Annual Yield Rate must be an integer</entry>
+    <entry key="annualYieldRateMustBeInteger_Arb">يجب أن يكون معدّل الإيرادات السنوية عدداً تاماً</entry>
+    <entry key="annualYieldRateMustBeInteger_Fr">Le taux de rendement annuel doit être un nombre entier</entry>
+
+    <entry key="annualYieldRateMustBeBiggerThan0_Eng">Annual Yield Rate must be an integer bigger than 0</entry>
+    <entry key="annualYieldRateMustBeBiggerThan0_Arb">يجب أن يكون معدّل الإيرادات السنوية عدداً تاماً</entry>
+    <entry key="annualYieldRateMustBeBiggerThan0_Fr">Le taux de rendement annuel doit être un nombre entier supérieur à zéro</entry>
+
+    <entry	key="april_Eng">April</entry>
+	<entry	key="april_Arb">نيسان/أبريل</entry>
+	<entry	key="april_Fr">Avril</entry>
+
+    <entry key="areYouSureYouWantToDeleteThisMessage_Eng">Are you sure you want to delete this message?</entry>
+    <entry key="areYouSureYouWantToDeleteThisMessage_Arb">هل أنت متأكد أنك تريد محو هذه الرسالة؟</entry>
+    <entry key="areYouSureYouWantToDeleteThisMessage_Fr">Êtes-vous sûr que vous voulez supprimer ce message?</entry>
+	
+	<entry key="areYouSurYouWantToDeleteTheUser_Eng">Are you sure you want to delete this Favorite?</entry>
+    <entry key="areYouSurYouWantToDeleteTheUser_Arb">ARE YOU SURE YOU WANT TO DELETE THIS FAVORITE?</entry>
+    <entry key="areYouSurYouWantToDeleteTheUser_Fr">ARE YOU SURE YOU WANT TO DELETE THIS FAVORITE?</entry>
+
+    <entry key="areYouSurYouWantToDeleteTheRequest_Eng">Are you sure you want to delete the request?</entry>
+    <entry key="areYouSurYouWantToDeleteTheRequest_Arb">هل أنت متأكد أنك تريد الغاء الطلب؟</entry>
+    <entry key="areYouSurYouWantToDeleteTheRequest_Fr">Etes vous sûrs que vous voulez supprimer la demande?</entry>
+
+    <entry key="areYouSurYouWantToDeleteTheMessage_Eng">Are you sure you want to delete the message?</entry>
+    <entry key="areYouSurYouWantToDeleteTheMessage_Arb">هل أنت متأكد أنك تريد الغاء الرسالة؟</entry>
+    <entry key="areYouSurYouWantToDeleteTheMessage_Fr">Vous êtes sûrs que vous voulez supprimer le message?</entry>
+
+    <entry key="areYouSurYouWantToResetThisPass_Eng">Are you sure you want to reset the password?</entry>
+    <entry key="areYouSurYouWantToResetThisPass_Arb">هل أنت واثق من إعادة ضبط كلمة المرور؟</entry>
+    <entry key="areYouSurYouWantToResetThisPass_Fr">Etes vous sûrs que vous voulez réinitialiser le mot de passe?</entry>
+
+    <entry key="areYouSurYouWantToResetThisPin_Eng">Are you sure you want to reset the transaction password?</entry>
+    <entry key="areYouSurYouWantToResetThisPin_Arb">هل انت واثق من طلب إعادة ضبط كلمة المرور الخاصة بالمعاملة؟</entry>
+    <entry key="areYouSurYouWantToResetThisPin_Fr">Etes vous sûrs que vous voulez réinitialiser le mot de passe de la transaction?</entry>
+
+    <entry key="areYouSurYouWantToDeliverPassword_Eng">Are you sure you want to deliver the passwords to this user ?</entry>
+    <entry key="areYouSurYouWantToDeliverPassword_Arb"> هل أنت متأكد أنك تريد تسليم كلمة المرور لهذا المستخدم؟</entry>
+    <entry key="areYouSurYouWantToDeliverPassword_Fr">Etes vous sûrs que vous voulez remettre les mots de passe à cet utilisateur?</entry>
+    
+    <entry	key="august_Eng">August</entry>
+	<entry	key="august_Arb">أغسطس/آب</entry>
+	<entry	key="august_Fr">Août</entry>
+    
+    <!-- ************************************* B *************************************-->
+    <entry key="block_Eng">Block</entry>
+    <entry key="block_Arb">كتلة</entry>
+    <entry key="block_Fr">Bloquer</entry>
+    
+    <entry	key="bothShouldBe_Eng">Both Password and Transaction Password should be of minimum 8 alphanumeric characters with minimum one upper case and one special character.</entry>
+	<entry	key="bothShouldBe_Arb">يجب أن تتألّف كلمة المرور وكلمة سر التحويل من ثمانية أحرف أبجدية رقمية بما في ذلك حرف كبير واحد ورمز كبير واحد على الأقل</entry>
+	<entry	key="bothShouldBe_Fr">Le mot de passe et la mot de transaction doit être composé de 8 caractères alphanumériques ayant au moins une majuscule et un caractère réservé.</entry>
+
+    <entry key="briefExplanation_Eng">Brief Explanation</entry>
+    <entry key="briefExplanation_Arb">شرح مختصر</entry>
+    <entry key="briefExplanation_Fr">Explication brève</entry>
+    
+    <entry key="basicSalaryIncomeMustBeNumber_Eng">Basic Salary/Income Must Be Number</entry>
+    <entry key="basicSalaryIncomeMustBeNumber_Arb">basicSalaryIncomeMustBeNumber</entry>
+    <entry key="basicSalaryIncomeMustBeNumber_Fr">basicSalaryIncomeMustBeNumber</entry>
+
+    <!-- ************************************* C *************************************-->
+    <entry key="cancel_Eng">Cancel</entry>
+    <entry key="cancel_Arb">إلغاء</entry>
+    <entry key="cancel_Fr">Annuler</entry>
+
+	<entry key="confPassword_Eng">Confirm Password</entry>
+    <entry key="confPassword_Arb">تأكيد كلمة المرور </entry>
+    <entry key="confPassword_Fr">Confirmer le mot de passe</entry>
+
+    <entry key="cifNoCannotBeEmpty_Eng">CIF NO Can't Be Empty</entry>
+    <entry key="cifNoCannotBeEmpty_Arb">لا يمكن  لملف العميل أن يكون أن يكون فارغاً</entry>
+    <entry key="cifNoCannotBeEmpty_Fr">Le numéro du FIC ne peut pas être vide</entry>
+
+	<entry key="cifNoLengthMoreThen8_Eng">CIF No can't be more than 8 characters</entry>
+	<entry key="cifNoLengthMoreThen8_Arb">لا يمكن أن يتخطى رقم ملف العميل الثمانية أرقام</entry>
+	<entry key="cifNoLengthMoreThen8_Fr">Le numéro du FIC ne doit pas dépasser 8 caractères</entry>
+
+    <entry key="cifNoShouldBeNumber_Eng">CIF NO Should Be Number</entry>
+    <entry key="cifNoShouldBeNumber_Arb"> يجب تحديد رقمٍ لملف العميل</entry>
+    <entry key="cifNoShouldBeNumber_Fr">Le numéro du FIC doit être précis</entry>
+
+    <entry key="collectAtBranch_Eng">COLLECT AT BRANCH</entry>
+    <entry key="collectAtBranch_Arb">Collect At Branch</entry>
+    <entry key="collectAtBranch_Fr">Collect At Branch</entry>
+
+    <entry key="contentCannotBeEmpty_Eng">Content Cannot Be Empty</entry>
+    <entry key="contentCannotBeEmpty_Arb"> لا يمكن أن يكون المحتوى فارغا</entry>
+    <entry key="contentCannotBeEmpty_Fr">Le contenu ne doit pas être vide</entry>
+
+    <entry key="contentLengthMoreThen500_Eng">Content cannot exceed 500 characters</entry>
+    <entry key="contentLengthMoreThen500_Arb">لا يمكن أن يتعدى المضمون الـ 500 حرفًا</entry>
+    <entry key="contentLengthMoreThen500_Fr">Le contenu ne doit pas dépasser 500 caractères</entry>
+	
+    <entry key="CouldNotFindThePrintReadySectionInHTML_Eng">Could not find the PrintReady section in the HTML</entry>
+    <entry key="CouldNotFindThePrintReadySectionInHTML_Arb"> HTMLلا يمكن إيجاد قسم الطباعة في ملف الـ </entry>
+    <entry key="CouldNotFindThePrintReadySectionInHTML_Fr">Impossible de trouver la section d'impression dans le fichier HTML</entry>
+    
+    <entry key="creditCardMustBeNumber_Eng">Credit Card Must Be Number</entry>
+    <entry key="creditCardMustBeNumber_Arb">creditCardMustBeNumber</entry>
+    <entry key="creditCardMustBeNumber_Fr">creditCardMustBeNumber</entry>
+	
+	<!-- ************************************* D *************************************-->
+    <entry key="dateUntilShouldBeBiggerThanDateFrom_Eng">Date Until should be bigger than Date From</entry>
+    <entry key="dateUntilShouldBeBiggerThanDateFrom_Arb">يجب أن يتعدى تاريخ الإنتهاء تاريخ البدء</entry>
+    <entry key="dateUntilShouldBeBiggerThanDateFrom_Fr">La date finale doit être supérieure à la date initiale</entry>
+
+    <entry key="debitAndCreditAccountMustBeDifferent_Eng">You have entered the same account; please choose a different account to Transfer To </entry>
+    <entry key="debitAndCreditAccountMustBeDifferent_Arb">تم اختيار  الحساب نفسه الرجاء اختيار حساب مختلف للتحويل إلى </entry>
+    <entry key="debitAndCreditAccountMustBeDifferent_Fr">Vous avez saisi le même compte.Veuillez choisir un compte différent pour transférer à </entry>
+    
+    <entry	key="december_Eng">December</entry>
+	<entry	key="december_Arb">كانون الثاني / ديسمبر</entry>
+	<entry	key="december_Fr">Décembre</entry>
+    
+    <entry key="divestmentOrder_Eng">Request For a Divestment Order</entry>
+    <entry key="divestmentOrder_Arb">أمر تصفية استثمار</entry>
+    <entry key="divestmentOrder_Fr">Ordre de désinvestissement</entry>
+    
+    <entry key="downPaymntMustBeAnInteger_Eng">Down Payment must be an integer</entry>
+    <entry key="downPaymntMustBeAnInteger_Arb"> يجب أن تكون الدفعة الأولى عدداً تاماً </entry>
+    <entry key="downPaymntMustBeAnInteger_Fr">L'acompte doit être un nombre entier*</entry>
+
+    <entry key="downPaymentShouldBeLessThanTotalValue_Eng">Down Payment should be less than Total Value.</entry>
+    <entry key="downPaymentShouldBeLessThanTotalValue_Arb">يجب ألا تتعدى قيمة الدفعة الأولى القيمة الإجمالية</entry>
+    <entry key="downPaymentShouldBeLessThanTotalValue_Fr">L'acompte doit être inférieur à la valeur totale</entry>
+    
+    <entry key="downPaymentMustBeNumber_Eng">Down Payment Must Be Number</entry>
+    <entry key="downPaymentMustBeNumber_Arb">downPaymentMustBeNumber</entry>
+    <entry key="downPaymentMustBeNumber_Fr">downPaymentMustBeNumber</entry>
+    
+    <entry key="depositMustBeNumber_Eng">Deposit Must Be Number</entry>
+    <entry key="depositMustBeNumber_Arb">depositMustBeNumber</entry>
+    <entry key="depositMustBeNumber_Fr">depositMustBeNumber</entry>
+    
+    <!-- ************************************* E *************************************-->
+    <entry key="emailInvalid_Eng">Invalid Email</entry>
+    <entry key="emailInvalid_Arb">البريد الإلكتروني غير صحيح</entry>
+    <entry key="emailInvalid_Fr">Le courriel est invalide</entry>
+    
+    <entry key="existingFacilityRefCannotBeEmpty_Eng">Existing Facility Ref. cannot be empty.</entry>
+    <entry key="existingFacilityRefCannotBeEmpty_Arb">الرجاء تحديد مرجع التسهيلات المتوافرة</entry>
+    <entry key="existingFacilityRefCannotBeEmpty_Fr">Veuillez préciser la référence des facilités existantes</entry>
+    
+    <entry key="epfMustBeNumber_Eng">EPF Must Be Number</entry>
+    <entry key="epfMustBeNumber_Arb">epfMustBeNumber</entry>
+    <entry key="epfMustBeNumber_Fr">epfMustBeNumber</entry>
+
+    <!-- ************************************* F *************************************-->
+    <entry	key="february_Eng">February</entry>
+	<entry	key="february_Arb">شباط/ فبراير </entry>
+	<entry	key="february_Fr">Février</entry>
+    
+    <entry key="FieldIs_Eng">' field is </entry>
+    <entry key="FieldIs_Arb">' الحقل هو</entry>
+    <entry key="FieldIs_Fr">Le champ est</entry>
+
+    <entry key="firstPaymentMustBeAnInteger_Eng">First Payment must be an integer</entry>
+    <entry key="firstPaymentMustBeAnInteger_Arb"> يجب أن تكون الدفعة الاولى عدداً تاما ً </entry>
+    <entry key="firstPaymentMustBeAnInteger_Fr">Le premier paiement doit être un nombre entier</entry>
+
+	<entry key="friday_Eng">Friday</entry>
+    <entry key="friday_Arb">الجمعة</entry>
+    <entry key="friday_Fr">Vendredi</entry>
+
+    <entry key="fromDateShouldBeBiggerThanCurrentDate._Eng">From Date should be bigger than current date.</entry>
+    <entry key="fromDateShouldBeBiggerThanCurrentDate._Arb">يجب ان يفوق تاريخ البدء التاريخ الحالي</entry>
+    <entry key="fromDateShouldBeBiggerThanCurrentDate._Fr">La date initiale doit être supérieure à la date actuelle.</entry>
+    
+    <entry key="fixedAllowance1AmountMustBeNumber_Eng">Fixed Allowance 1 Amount Must Be Number</entry>
+    <entry key="fixedAllowance1AmountMustBeNumber_Arb">fixedAllowance1Amount</entry>
+    <entry key="fixedAllowance1AmountMustBeNumber_Fr">fixedAllowance1Amount</entry>
+    
+    <entry key="fixedAllowance2AmountMustBeNumber_Eng">Fixed Allowance 2 Amount Must Be Number</entry>
+    <entry key="fixedAllowance2AmountMustBeNumber_Arb">fixedAllowance2Amount</entry>
+    <entry key="fixedAllowance2AmountMustBeNumber_Fr">fixedAllowance2Amount</entry>
+    
+    <entry key="fixedAllowance3AmountMustBeNumber_Eng">Fixed Allowance 3 Amount Must Be Number</entry>
+    <entry key="fixedAllowance3AmountMustBeNumber_Arb">fixedAllowance3Amount</entry>
+    <entry key="fixedAllowance3AmountMustBeNumber_Fr">fixedAllowance3Amount</entry>
+    
+    <!-- ************************************* H *************************************-->
+    <entry key="houseMustBeNumber_Eng">House Must Be Number</entry>
+    <entry key="houseMustBeNumber_Arb">houseMustBeNumber</entry>
+    <entry key="houseMustBeNumber_Fr">houseMustBeNumber</entry>
+    
+    <!-- ************************************* I *************************************-->
+    <entry key="invalidAccountNumber_Eng">Invalid Account Number</entry>
+    <entry key="invalidAccountNumber_Arb">Invalid Account Number</entry>
+    <entry key="invalidAccountNumber_Fr">Invalid Account Number</entry>
+    
+    <entry key="invalidDates_Eng">Invalid Dates</entry>
+    <entry key="invalidDates_Arb">التواريخ غير صحيحة</entry>
+    <entry key="invalidDates_Fr">Les dates sont invalides</entry>
+    
+    <entry key="EndDateShouldBeDifferentThanStartDate_Eng">End Date should be different than Start Date</entry>
+    <entry key="invalidDates_Arb">ENDDATESHOULDBEDIFFERENTTHANSTARTDATE</entry>
+    <entry key="invalidDates_Fr">ENDDATESHOULDBEDIFFERENTTHANSTARTDATE</entry>
+    
+    <entry key="investmentOrder_Eng">Request For an Investment Order </entry>
+    <entry key="investmentOrder_Arb">أمر استثمار</entry>
+    <entry key="investmentOrder_Fr">Ordre d'investissement</entry>
+    
+	<entry key="invalidPassword_Eng">Invalid Password</entry>
+    <entry key="invalidPassword_Arb"> كلمة المرور غير صحيحة</entry>
+    <entry key="invalidPassword_Fr">Le mot de passe est invalide</entry>
+    
+    <entry	key="invalidAmount_Eng">Invalid Amount</entry>
+	<entry	key="invalidAmount_Arb">Invalid Amount</entry>
+	<entry	key="invalidAmount_Fr">Invalid Amount</entry>
+	
+	<!-- ************************************* J *************************************-->
+	<entry	key="january_Eng">January</entry>
+	<entry	key="january_Arb">كانون الثاني /يناير</entry>
+	<entry	key="january_Fr">Janvier</entry>
+	
+	<entry	key="july_Eng">July</entry>
+	<entry	key="july_Arb">تموز/ يوليو</entry>
+	<entry	key="july_Fr">Juillet</entry>
+	
+	<entry	key="june_Eng">June</entry>
+	<entry	key="june_Arb">حزيران / يونيو</entry>
+	<entry	key="june_Fr">Juin</entry>
+	
+	<!-- ************************************* L *************************************-->
+    <entry key="language_Eng">عربي</entry>
+    <entry key="language_Arb">English</entry>
+    <entry key="language_Fr">Français</entry>
+    
+    <entry key="lastDateOfShipmentCannotBeLessLhanTheLCStartDate_Eng">'Last date of shipment' cannot be less than the LC Start Date</entry>
+    <entry key="lastDateOfShipmentCannotBeLessLhanTheLCStartDate_Arb"> آخر مهلة للشحن' لا يمكن ان تقل عن تاريخ بدء الإعتماد' </entry>
+    <entry key="lastDateOfShipmentCannotBeLessLhanTheLCStartDate_Fr">'Derniere Date de cargaison' ne peut pas être inferieure à la date de debut de la LC</entry>
+    
+    <entry key="leaseholdPeriodMustBeNumber_Eng">Leasehold Period must be a number.</entry>
+    <entry key="leaseholdPeriodMustBeNumber_Arb">leaseholdPeriodMustBeNumber</entry>
+    <entry key="leaseholdPeriodMustBeNumber_Fr">leaseholdPeriodMustBeNumber</entry>
+    
+    <!-- ************************************* M *************************************-->    
+    <entry key="mailToBeneficiary_Eng">MAIL TO BENEFICIARY</entry>
+    <entry key="mailToBeneficiary_Arb">Mail To Beneficiary</entry>
+    <entry key="mailToBeneficiary_Fr">Mail To Beneficiary</entry>
+    
+    <entry	key="march_Eng">March</entry>
+	<entry	key="march_Arb">آذار / مارس </entry>
+	<entry	key="march_Fr">Mars</entry>
+    
+    <entry key="maturityDateMustBeDateWithFormatDMY_Eng">Maturity Date must be date with format dd/mm/yyyy.</entry>
+    <entry key="maturityDateMustBeDateWithFormatDMY_Arb"> الرجاء إدخال تاريخ الاستحقاق على الشكل التالي: اليوم/ الشهر/ السنة </entry>
+    <entry key="maturityDateMustBeDateWithFormatDMY_Fr">La date d'échéance doit avoir le format jour/mois/année </entry>
+
+    <entry key="maturityDaysMustBeANumber_Eng">Maturity Days must be a number.</entry>
+    <entry key="maturityDaysMustBeANumber_Arb">الرجاء تحديد تاريخ الاستحقاق بالأرقام</entry>
+    <entry key="maturityDaysMustBeANumber_Fr">Les jours d'échéance doivent être des nombres </entry>
+
+    <entry key="maxLengthOfThe_Eng">Max length of the ' </entry>
+    <entry key="maxLengthOfThe_Arb">الحد الأقصى ل ' </entry>
+    <entry key="maxLengthOfThe_Fr">La longueur maximale du</entry>
+
+    <entry key="missing_Eng">-</entry>
+    <entry key="missing_Arb"> ناقص :</entry>
+    <entry key="missing_Fr">Manquant</entry>
+    
+    <entry key="monday_Eng">Monday</entry>
+    <entry key="monday_Arb">الاثنين</entry>
+    <entry key="monday_Fr">Lundi</entry>
+    
+    <entry	key="may_Eng">May</entry>
+	<entry	key="may_Arb">أيار/مايو</entry>
+	<entry	key="may_Fr">Mai</entry>
+    
+    <!-- ************************************* N *************************************-->
+	<entry key="newPasswordValidationMessage_Eng">The Password should consist of 8 to 12 alphanumeric and special characters, including upper and lower cases</entry>
+    <entry key="newPasswordValidationMessage_Arb">يجب أن تتألف كلمة المرور من 8 إلى 12 حرف أبجدي عددي وأحرف خاصة تشمل الأحرف الكبيرة والصغيرة</entry>
+    <entry key="newPasswordValidationMessage_Fr">Le mot de passe doit comprendre entre 8 et 12 caractères spéciaux et alphanumériques y compris les majuscules et les minuscules</entry>
+
+    <entry key="newPasswdLengthBet8And12_Eng">New Password should be between 8 and 12 characters</entry>
+    <entry key="newPasswdLengthBet8And12_Arb">يجب أن تتراوح كلمة المرور الجديدة بين 8 و 12 حرفاً</entry>
+    <entry key="newPasswdLengthBet8And12_Fr">Le nouveau mot de passe doit comprendre entre 8 et 12 caractères</entry>
+
+	<entry	key="november_Eng">November</entry>
+	<entry	key="november_Arb">تشرين الثاني/نوفمبر </entry>
+	<entry	key="november_Fr">Novembre</entry>
+
+    <entry key="numberOfBalloonPaymentMustBeInteger_Eng">Number of Balloon Payment must be an Integer</entry>
+    <entry key="numberOfBalloonPaymentMustBeInteger_Arb">يجب ان تكون قيمة الدفعة الختامية عددًا تاماًً</entry>
+    <entry key="numberOfBalloonPaymentMustBeInteger_Fr">Le ballon doit être un nombre entier</entry>
+
+    <entry key="numberOfBillsShouldBeInteger_Eng">Number of Bills should be integer</entry>
+    <entry key="numberOfBillsShouldBeInteger_Arb">يجب أن يكون عدد السندات تاما </entry>
+    <entry key="numberOfBillsShouldBeInteger_Fr">Le nombre des factures doit être un nombre entier</entry>
+
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan0_Eng">Number of Bills should be integer bigger than 0</entry>
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan0_Arb">يجب أن يكون عدد السندات تاما يفوق العدد 0 </entry>
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan0_Fr">Le nombre des factures doit être un nombre entier supérieur à zéro</entry>
+
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan1_Eng">Number of Bills should be integer bigger than 1</entry>
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan1_Arb">يجب أن يكون عدد السندات تاما يفوق العدد 1 </entry>
+    <entry key="numberOfBillsShouldBeIntegerBiggerThan1_Fr">Le nombre des factures doit être un nombre entier supérieur à 1</entry>
+
+    <entry key="numberOfPaymentMustBeAnInteger_Eng">Number of Payment must be an integer</entry>
+    <entry key="numberOfPaymentMustBeAnInteger_Arb">يجب ان يكون عدد الدفعات  تامًاً</entry>
+    <entry key="numberOfPaymentMustBeAnInteger_Fr">Le nombre des paiements doit être un nombre entier</entry>
+
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan0_Eng">Number Of Payment should be integer bigger than 0</entry>
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan0_Arb">يجب ان يكون عدد الدفعات  تامًا يفوق العدد 0 </entry>
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan0_Fr">Le nombre des paiements doit être un nombre entier supérieur à zéro</entry>
+
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan1_Eng">Number Of Payment should be integer bigger than 1</entry>
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan1_Arb">يجب ان يكون عدد الدفعات  تامًا يفوق العدد 1</entry>
+    <entry key="numberOfPaymentShouldBeIntegerBiggerThan1_Fr">Le nombre des paiements doit être un nombre entier supérieur à 1</entry>
+    
+    <!-- ************************************* O *************************************-->
+    <entry key="ok_Eng">Ok</entry>
+    <entry key="ok_Arb">موافقة</entry>
+    <entry key="ok_Fr">Ok</entry>
+	
+	<entry key="okTocontinueCancelToLogout_Eng"> seconds, click 'Ok' to continue the session or \'Cancel\' to logout</entry>
+    <entry key="okTocontinueCancelToLogout_Arb"> SECONDS, CLICK 'OK' TO CONTINUE THE SESSION OR \'CANCEL\' TO LOGOUT</entry>
+    <entry key="okTocontinueCancelToLogout_Fr"> secondes, appuyer 'Ok' pour continuer ou 'Cancel' pour sortir</entry>
+    
+	<entry	key="october_Eng">October</entry>
+	<entry	key="october_Arb">تشرين الأول/أكتوبر</entry>
+	<entry	key="october_Fr">Octobre</entry>
+	
+    <entry key="oneOfTheFieldsIsRequired_Eng">ONE OF THE FIELDS: Number Of Payment or Amount Per Payment is required</entry>
+    <entry key="oneOfTheFieldsIsRequired_Arb"> إن أحد الحقول :عدد الدفعات أو المبلغ عن كل دفعة هو مطلوب </entry>
+    <entry key="oneOfTheFieldsIsRequired_Fr">/L'un des champs: le nombre des paiements ou le montant par paiement est requis </entry>
+    
+	<entry key="oldPasswdLengthBet8And12_Eng">Old Password should be between 8 and 12 characters</entry>
+    <entry key="oldPasswdLengthBet8And12_Arb">يجب أن تتراوح كلمة المرور القديمة بين 8 و 12 حرفاً</entry>
+    <entry key="oldPasswdLengthBet8And12_Fr">L'ancien mot de passe doit comprendre entre 8 et 12 caractères</entry>
+
+    <entry key="oldPasswordValidationMessage_Eng">The Old Password should consist of 8 to 12 alphanumeric and special characters, including upper and lower cases</entry>
+    <entry key="oldPasswordValidationMessage_Arb">يجب أن تتألف كلمة المرور القديمة من 8 إلى 12 حرف عددي رقمي وأحرف خاصة إضافة إلى الأحرف الكبيرة والصغيرة.</entry>
+    <entry key="oldPasswordValidationMessage_Fr">L'ancien mot de passe doit comprendre entre 8 et 12 caractères spéciaux et alphanumériques y compris les majuscules et les minuscules </entry>
+	
+	<entry key="otherIncome1AmountMustBeNumber_Eng">Other Income 1 Amount Must Be Number</entry>
+    <entry key="otherIncome1AmountMustBeNumber_Arb">otherIncome1AmountMustBeNumber</entry>
+    <entry key="otherIncome1AmountMustBeNumber_Fr">otherIncome1AmountMustBeNumber</entry>
+    
+    <entry key="otherIncome2AmountMustBeNumber_Eng">Other Income 2 Amount Must Be Number</entry>
+    <entry key="otherIncome2AmountMustBeNumber_Arb">otherIncome2AmountMustBeNumber</entry>
+    <entry key="otherIncome2AmountMustBeNumber_Fr">otherIncome2AmountMustBeNumber</entry>
+    
+    <entry key="otherIncome3AmountMustBeNumber_Eng">Other Income 3 Amount Must Be Number</entry>
+    <entry key="otherIncome3AmountMustBeNumber_Arb">otherIncome3AmountMustBeNumber</entry>
+    <entry key="otherIncome3AmountMustBeNumber_Fr">otherIncome3AmountMustBeNumber</entry>
+    
+    <entry key="othersMustBeNumber_Eng">Others Must Be Number</entry>
+    <entry key="othersMustBeNumber_Arb">othersMustBeNumber</entry>
+    <entry key="othersMustBeNumber_Fr">othersMustBeNumber</entry>
+   
+    <entry key="otrPriceCashPriceMustBeNumber_Eng">OTR Price/Cash Price Must Be Number</entry>
+    <entry key="otrPriceCashPriceMustBeNumber_Arb">otrPriceCashPriceMustBeNumber</entry>
+    <entry key="otrPriceCashPriceMustBeNumber_Fr">otrPriceCashPriceMustBeNumber</entry>
+   
+	<!-- ************************************* P *************************************-->
+	<entry key="passwordDifferentConfirmPassword_Eng">New Password and Confirm Password do not match</entry>
+    <entry key="passwordDifferentConfirmPassword_Arb"> تختلف عملية تأكيد كلمة المرور عن تحديد كلمة السر الجديدة</entry>
+    <entry key="passwordDifferentConfirmPassword_Fr">Le nouveau mot de passe et sa confirmation ne sont pas compatibles</entry>
+
+    <entry key="passwordHasNotBeenChanged_Eng">the password has not been changed</entry>
+    <entry key="passwordHasNotBeenChanged_Arb">لم يتم تغيير كلمة المرور</entry>
+    <entry key="passwordHasNotBeenChanged_Fr">Le mot de passe n'a pas été changé</entry>  
+	
+	<entry	key="passwordShouldBe_Eng">Password should be of minimum 8 alphanumeric characters with minimum one upper case and one special character.</entry>
+	<entry	key="passwordShouldBe_Arb">يجب أن تتألّف كلمة المرور من ثمانية أحرف أبجدية رقمية بما في ذلك حرف كبير واحد ورمز كبير واحد على الأقل</entry>
+	<entry	key="passwordShouldBe_Fr">Le mot de passe doit être composé de 8 caractères alphanumériques ayant au moins une majuscule et un caractère réservé.</entry>
+    
+    <entry	key="pinShouldBe_Eng">Transaction Password should be of minimum 8 alphanumeric characters with minimum one upper case and one special character.</entry>
+	<entry	key="pinShouldBe_Arb">يجب أن تتألّف كلمة سر التحويل من ثمانية أحرف أبجدية رقمية بما في ذلك حرف كبير واحد ورمز كبير واحد على الأقل</entry>
+	<entry	key="pinShouldBe_Fr">Le mot de passe doit être composé de 8 caractères alphanumériques ayant au moins une majuscule et un caractère réservé.</entry>
+	
+    <entry key="pinNotConfirmed_Eng">New PIN and Confirm New PIN do not match</entry>
+    <entry key="pinNotConfirmed_Arb">  لا يتطابق رقم التعريف الشخصي الجديد مع  تأكيد رقم التعريف الشخصي الجديد</entry>
+    <entry key="pinNotConfirmed_Fr">Le nouveau NIP et la confirmation du nouveau NIP ne sont pas compatibles</entry>
+
+    <entry key="passwordNotConfirmed_Eng">New Password and Confirm New Password do not match</entry>
+    <entry key="passwordNotConfirmed_Arb"> لا تتطابق كلمة المرور الجديدة مع التأكيد على كلمة المرور </entry>
+    <entry key="passwordNotConfirmed_Fr">Le nouveau mot de passe et la confirmation du nouveau mot de passe ne sont pas compatibles</entry>
+
+    <entry key="pleaseEnterAValid4DigitYearBetween_Eng">Please enter a valid 4 digit year between</entry>
+    <entry key="pleaseEnterAValid4DigitYearBetween_Arb"> الرجاء إدخال سنة صحيحة مؤلفة من 4 أرقام بين</entry>
+    <entry key="pleaseEnterAValid4DigitYearBetween_Fr">Veuillez saisir une année valide de 4 chiffres entre</entry>
+
+    <entry key="pleaseEnterAValidDay_Eng">Please enter a valid day</entry>
+    <entry key="pleaseEnterAValidDay_Arb">الرجاء إدخال يوم صحيح</entry>
+    <entry key="pleaseEnterAValidDay_Fr">Veuillez saisir un jour valide</entry>
+
+    <entry key="pleaseEnterAValidMonth_Eng">Please enter a valid month</entry>
+    <entry key="pleaseEnterAValidMonth_Arb">الرجاء إدخال شهر صحيح</entry>
+    <entry key="pleaseEnterAValidMonth_Fr">Veuillez saisir un mois valide</entry>
+
+    <entry key="pleaseEnterAValue_Eng">Please enter the PIN</entry>
+    <entry key="pleaseEnterAValue_Arb">الرجاء إدخال رقم التعريف الشخصي</entry>
+    <entry key="pleaseEnterAValue_Fr">Veuillez saisir le NIP</entry>
+
+    <entry key="pleaseFillInAValidEmail_Eng">Please fill in a valid Email</entry>
+    <entry key="pleaseFillInAValidEmail_Arb">الرجاء إدخال بريد إلكتروني صحيح</entry>
+    <entry key="pleaseFillInAValidEmail_Fr">Veuillez saisir un courriel valide</entry>
+
+    <entry key="pleaseFillInTheDate_Eng">Please fill in the date</entry>
+    <entry key="pleaseFillInTheDate_Arb">الرجاء تحديد التاريخ</entry>
+    <entry key="pleaseFillInTheDate_Fr">Veuillez saisir la date</entry>
+
+    <entry key="pleaseTypeANewDescriptionForYourAccount_Eng">Please type a new description for your account</entry>
+    <entry key="pleaseTypeANewDescriptionForYourAccount_Arb">الرجاء إدخال تفاصيل جديدة خاصة بحسابكم</entry>
+    <entry key="pleaseTypeANewDescriptionForYourAccount_Fr">Veuillez saisir une nouvelle description de votre compte</entry>
+
+    <entry key="percentageMustBeBetween_Eng">Percentage must be between 1 and 100</entry>
+    <entry key="percentageMustBeBetween_Arb">يجب أن تتراوح النسبة المئوية بين 1 و 100</entry>
+    <entry key="percentageMustBeBetween_Fr">Le pourcentage doit varier entre 1 et 100</entry>
+
+    <entry key="please_Eng">Please</entry>
+    <entry key="please_Arb"> PLEASE :</entry>
+    <entry key="please_Fr">PLEASE :</entry>
+
+    <entry key="pleaseChooseAccountCurrencyBefore_Eng">Please choose account currency before</entry>
+    <entry key="pleaseChooseAccountCurrencyBefore_Arb"> يرجى تحديد عملة الحساب قبل </entry>
+    <entry key="pleaseChooseAccountCurrencyBefore_Fr">Veuillez choisir la devise du compte avant</entry>
+
+	<entry key="pleaseChooseThreeUserIdDifferents_Eng">Please Choose 3 different User IDs</entry>
+	<entry key="pleaseChooseThreeUserIdDifferents_Arb">الرجاء اختيار ثلاثة أرقام  مختلفة خاصة بالمستخدم</entry>
+	<entry key="pleaseChooseThreeUserIdDifferents_Fr">SVP Choisissez 3 differents IDs de l'utilisateur</entry>
+	
+	<entry key="pleaseLoginCorrectly_Eng">Please Login Correctly</entry>
+	<entry key="pleaseLoginCorrectly_Arb">الرجاء تسجيل الدخول بشكل صحيح</entry>
+	<entry key="pleaseLoginCorrectly_Fr">Veuillez Connectez correctement</entry>
+
+    <entry key="pleaseFillThePurchaseAmount_Eng">Please Fill the Purchase Amount</entry>
+    <entry key="pleaseFillThePurchaseAmount_Arb">يُرجى تحديد مبلغ الشراء</entry>
+    <entry key="pleaseFillThePurchaseAmount_Fr">Veuillez préciser le montant d'achat</entry>
+
+    <entry key="profitRateMustBeBiggerThan0_Eng">Profit Rate must be bigger than 0</entry>
+    <entry key="profitRateMustBeBiggerThan0_Arb">يجب أن يتعدى معدّل الأرباح 0</entry>
+    <entry key="profitRateMustBeBiggerThan0_Fr">Le taux du profit doit dépasser 0</entry>
+
+    <entry key="profitRateMustBeLessThan100_Eng">Profit Rate must be less than 100</entry>
+    <entry key="profitRateMustBeLessThan100_Arb">يجب ألا تتعدى نسبة الأرباح 100</entry>
+    <entry key="profitRateMustBeLessThan100_Fr">Le taux du profit doit être inférieur à 100</entry>
+
+    <entry key="purchaseAmountMustBeAnInteger_Eng">Purchase Amount must be an integer</entry>
+    <entry key="purchaseAmountMustBeAnInteger_Arb"> يجب ان يكون مبلغ الشراء عددًا تامًا</entry>
+    <entry key="purchaseAmountMustBeAnInteger_Fr">Le montant d'achat doit être un nombre entier</entry>
+
+    <entry key="purchaseAmountMustBeAnIntegerGreaterThan0_Eng">Purchase Amount Must be an Integer greater than 0</entry>
+    <entry key="purchaseAmountMustBeAnIntegerGreaterThan0_Arb"> يجب ان يكون مبلغ الشراء عددًا تام يفوق العدد 0</entry>
+    <entry key="purchaseAmountMustBeAnIntegerGreaterThan0_Fr">Le montant d'achat doit être un nombre entier supérieur à zéro </entry>
+
+    <entry key="purchaseAmountMustBeGreater_Eng">The Purchase Amount must be greater than the Down Payment</entry>
+    <entry key="purchaseAmountMustBeGreater_Arb">يجب أن يتخطى مبلغ الشراء قيمة الدفعة الأولى</entry>
+    <entry key="purchaseAmountMustBeGreater_Fr">Le montant d'achat doit dépasser l'acompte</entry>
+    
+    <entry key="personalODMustBeNumber_Eng">Personal/OD Must Be Number</entry>
+    <entry key="personalODMustBeNumber_Arb">personalODMustBeNumber</entry>
+    <entry key="personalODMustBeNumber_Fr">personalODMustBeNumber</entry>
+    
+    <entry key="percentageOfCompletionMustBeNumber_Eng">Percentage of Completion must be a number.</entry>
+    <entry key="percentageOfCompletionMustBeNumber_Arb">percentageOfCompletionMustBeNumber</entry>
+    <entry key="percentageOfCompletionMustBeNumber_Fr">percentageOfCompletionMustBeNumber</entry>
+    
+    <entry key="propSpaProFormaInvoiceAuctionPriceMustBeNumber_Eng">SPA/Pro-Forma Invoice/Auction Price must be a number.</entry>
+    <entry key="propSpaProFormaInvoiceAuctionPriceMustBeNumber_Arb">propSpaProFormaInvoiceAuctionPriceMustBeNumber</entry>
+    <entry key="propSpaProFormaInvoiceAuctionPriceMustBeNumber_Fr">propSpaProFormaInvoiceAuctionPriceMustBeNumber</entry>
+    
+    <entry key="profitAmountMustBeNumber_Eng">Profit Amount Must Be Number</entry>
+    <entry key="profitAmountMustBeNumber_Arb">profitAmountMustBeNumber</entry>
+    <entry key="profitAmountMustBeNumber_Fr">profitAmountMustBeNumber</entry>
+    
+	<!-- ************************************* Q *************************************-->
+	<entry key="QuantityMustBeAnInteger_Eng">  Quantity must be an integer. </entry>
+    <entry key="QuantityMustBeAnInteger_Arb"> يجب تحديد الكمية بعدد تام</entry>
+    <entry key="QuantityMustBeAnInteger_Fr">La quantité doit être un nombre entier</entry>
+    
+    <!-- ************************************* R *************************************-->
+    <entry key="reportPrintFooter_Eng">BMMB Internet Banking Services – NOT FOR OFFICIAL USE </entry>
+    <entry key="reportPrintFooter_Arb">ليست للاستعمال الرسمي   BMMB Internet Banking Services – NOT FOR OFFICIAL USE</entry>
+    
+    <entry key="remainingLeaseholdPeriodMustBeNumber_Eng">Remaining Leasehold Period must be a number.</entry>
+    <entry key="remainingLeaseholdPeriodMustBeNumber_Arb">remainingLeaseholdPeriodMustBeNumber</entry>
+    <entry key="remainingLeaseholdPeriodMustBeNumber_Fr">remainingLeaseholdPeriodMustBeNumber</entry>
+    
+	<!-- ************************************* S *************************************-->
+	
+	<entry key="saturday_Eng">Saturday</entry>
+    <entry key="saturday_Arb">السبت</entry>
+    <entry key="saturday_Fr">Samedi</entry>
+	
+    <entry key="selectAnAccountToProceed_Eng">Select an account to proceed </entry>
+    <entry key="selectAnAccountToProceed_Arb">الرجاء إختيار حساب للمتابعة  </entry>
+    <entry key="selectAnAccountToProceed_Fr">Veuillez sélectionner un compte pour continuer</entry>
+
+    <entry key="sendingWasSuccessful_Eng">Sending was successful</entry>
+    <entry key="sendingWasSuccessful_Arb">لقد تمت عملية الإرسال </entry>
+    <entry key="sendingWasSuccessful_Fr">L'envoi a été accompli </entry>
+
+    <entry key="sendingFailed_Eng">Sending Failed, please retry again later.</entry>
+    <entry key="sendingFailed_Arb">فشل الإرسال، الرجاء إعادة المحاولة لاحقا ً</entry>
+    <entry key="sendingFailed_Fr">Echec de l'envoi, veuillez réessayer plus tard.</entry>
+
+	<entry	key="september_Eng">September</entry>
+	<entry	key="september_Arb">أيلول / سبتمبر </entry>
+	<entry	key="september_Fr">Septembre</entry>
+
+    <entry key="sorryThePrintReadyFeature_Eng">Sorry, the print ready feature is only available in modern browsers</entry>
+    <entry key="sorryThePrintReadyFeature_Arb"> نعتذر منكم، فإن ميزة الطباعة الجاهزة متوافرة فقط في المتصفحات الجديدة </entry>
+    <entry key="sorryThePrintReadyFeature_Fr">Désolé,la caractéristique de l'impression prête est seulement disponible dans les navigateurs modernes </entry>	
+	
+    <entry key="subjectCannotBeEmpty_Eng">Subject Cannot Be Empty</entry>
+    <entry key="subjectCannotBeEmpty_Arb"> لا يمكن أن يكون الموضوع فارغا</entry>
+    <entry key="subjectCannotBeEmpty_Fr">Le sujet ne peut pas être vide</entry>
+
+    <entry key="subjectLengthMoreThen80_Eng">Subject Cannot Be More Than 80 Characters</entry>
+    <entry key="subjectLengthMoreThen80_Arb">لا  يمكن أن يتعدى الموضوع الـ 80 حرفًا</entry>
+    <entry key="subjectLengthMoreThen80_Fr">Le sujet ne peut pas dépasser 80 caractères*</entry>
+    
+    <entry key="sunday_Eng">Sunday</entry>
+    <entry key="sunday_Arb">الأحد</entry>
+    <entry key="sunday_Fr">Dimanche</entry>
+    
+    <entry key="socsoAmountMustBeNumber_Eng">SOCSO Amount Must Be Number</entry>
+    <entry key="socsoAmountMustBeNumber_Arb">socsoAmountMustBeNumber</entry>
+    <entry key="socsoAmountMustBeNumber_Fr">socsoAmountMustBeNumber</entry>
+    
+    <!-- ************************************* T *************************************-->
+    
+    <entry	key="theAmountShouldBeGreaterThanZero_Eng">The amount should be greater than zero </entry>
+	<entry	key="theAmountShouldBeGreaterThanZero_Arb"> The Amount should be greater than zero </entry>
+	<entry	key="theAmountShouldBeGreaterThanZero_Fr"> Le montant doit être supérieur que zéro </entry>
+    
+    <entry key="theAmountMustBeLowerThanTheAvailableBalance_Eng">the amount must be lower than the availableBalance</entry>
+    <entry key="theAmountMustBeLowerThanTheAvailableBalance_Arb">يجب ألا يتعدى المبلغ الرصيد المتوافر</entry>
+    <entry key="theAmountMustBeLowerThanTheAvailableBalance_Fr">le montant doit être inférieur au solde disponible</entry>
+
+    <entry key="theDateFormatShouldBeDMY_Eng">The date format should be: dd/mm/yyyy</entry>
+    <entry key="theDateFormatShouldBeDMY_Arb">الرجاء إدخال التاريخ على النسق التالي: اليوم/ الشهر/ السنة</entry>
+    <entry key="theDateFormatShouldBeDMY_Fr">Le format de la date doit être: jour/mois/année</entry>
+
+    <entry key="theInputTypeFieldAmountMustContainADecimalValueOnly_Eng">amount must contain a decimal value only</entry>
+    <entry key="theInputTypeFieldAmountMustContainADecimalValueOnly_Arb"> يجب أن يحتوي المبلغ قيمة عشرية وحسب </entry>
+    <entry key="theInputTypeFieldAmountMustContainADecimalValueOnly_Fr">le montant doit contenir une valeur décimale seulement</entry>
+
+    <entry key="theInputTypeFieldAmountMustContainOnlyNumbers_Eng">'Amount' must contain only numbers</entry>
+    <entry key="theInputTypeFieldAmountMustContainOnlyNumbers_Arb"> يجب تحديد المبلغ بالأرقام فقط</entry>
+    <entry key="theInputTypeFieldAmountMustContainOnlyNumbers_Fr">Le montant doit contenir seulement des nombres</entry>
+
+    <entry key="theInputTypeFieldAmountPerBillMustBeNumber_Eng">'Amount per Bill' must be Number</entry>
+    <entry key="theInputTypeFieldAmountPerBillMustBeNumber_Arb"> يجب تحديد القيمة بحسب السند  بالأرقام</entry>
+    <entry key="theInputTypeFieldAmountPerBillMustBeNumber_Fr">Le montant par facture doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldAmountMustBeNumber_Eng">'Amount' must be Number</entry>
+    <entry key="theInputTypeFieldAmountMustBeNumber_Arb">'يجب تحديد 'المبلغ' بالأرقام</entry>
+    <entry key="theInputTypeFieldAmountMustBeNumber_Fr">Le montant doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldBeneficiaryBankAccMustBeNumber_Eng">'Beneficiary Bank Acc' must be Number</entry>
+    <entry key="theInputTypeFieldBeneficiaryBankAccMustBeNumber_Arb">يجب تحديد 'حساب البنك المستفيد' بالأرقام </entry>
+    <entry key="theInputTypeFieldBeneficiaryBankAccMustBeNumber_Fr">Le compte de la banque bénéficiaire doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldBeneficiaryMustBeNumber_Eng">'Beneficiary' must be Number</entry>
+    <entry key="theInputTypeFieldBeneficiaryMustBeNumber_Arb">يجب تحديد 'المستفيد' باستخدام الأرقام</entry>
+    <entry key="theInputTypeFieldBeneficiaryMustBeNumber_Fr">Le bénéficiaire doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldCollectedByMustContainOnlyCharacters_Eng">'Collected By' must contain only characters</entry>
+    <entry key="theInputTypeFieldCollectedByMustContainOnlyCharacters_Arb">يجب تحديد حقل 'محصّل من قِبل' بالأحرف</entry>
+    <entry key="theInputTypeFieldCollectedByMustContainOnlyCharacters_Fr">'Recouvré par'doit contenir seulement des caractères</entry>
+
+    <entry key="theInputTypeFieldDebitDaysMustContainOnlyNumbers_Eng">'Debit Days' must contain only numbers</entry>
+    <entry key="theInputTypeFieldDebitDaysMustContainOnlyNumbers_Arb">يجب تحديد 'الأيام المدينة' بالأرقام فقط</entry>
+    <entry key="theInputTypeFieldDebitDaysMustContainOnlyNumbers_Fr">"Les jours de débit' doivent contenir seulement des nombres</entry>
+
+    <entry key="theInputTypeFieldDeliveryLocationMustContainOnlyCharacters_Eng">'Delivery Location' must contain only characters</entry>
+    <entry key="theInputTypeFieldDeliveryLocationMustContainOnlyCharacters_Arb"> يجب تحديد 'مكان التسليم' بالأحرف فقط</entry>
+    <entry key="theInputTypeFieldDeliveryLocationMustContainOnlyCharacters_Fr">'L'emplacement des livraisons' doit contenir seulement des caractères</entry>
+
+    <entry key="theInputTypeFieldDownPaymentMustBeNumber_Eng">'Down Payment' must be Number</entry>
+    <entry key="theInputTypeFieldDownPaymentMustBeNumber_Arb">يجب تحديد "الدفعة الأولى' بالأرقام </entry>
+    <entry key="theInputTypeFieldDownPaymentMustBeNumber_Fr">L'acompte doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldFromDocumentNumberMustBeNumber_Eng">'From Document Number' must be Number</entry>
+    <entry key="theInputTypeFieldFromDocumentNumberMustBeNumber_Arb">يجب تحديد حقل 'المستند الأساسي' بالأرقام فقط </entry>
+    <entry key="theInputTypeFieldFromDocumentNumberMustBeNumber_Fr">Le champ 'Numéro du document initial' doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldFundingBankAccMustBeNumber_Eng">'Funding Bank Acc' must be Number</entry>
+    <entry key="theInputTypeFieldFundingBankAccMustBeNumber_Arb">يجب تحديد  'حساب البنك الممول' بالأرقام</entry>
+    <entry key="theInputTypeFieldFundingBankAccMustBeNumber_Fr">Le 'Compte de la banque de financement' doit être un nombre</entry>
+
+    <entry key="theInputFypeFieldIssuingBankAccMustBeNumber_Eng">'Issuing Bank Acc' must be Number</entry>
+    <entry key="theInputFypeFieldIssuingBankAccMustBeNumber_Arb">يجب تحديد 'حساب بنك الإصدار' بالأرقام</entry>
+    <entry key="theInputFypeFieldIssuingBankAccMustBeNumber_Fr">Le 'Compte de la banque émettrice' doit être un nombre</entry>
+    
+    <entry key="theInputTypeFieldNoOfBillsCannotBeEqualZero_Eng">'No Of Bills' cannot be equal zero</entry>
+    <entry key="theInputTypeFieldNoOfBillsCannotBeEqualZero_Arb"> لا يمكن أن يساوي عدد السندات  صفر </entry>
+    <entry key="theInputTypeFieldNoOfBillsCannotBeEqualZero_Fr">Le 'Nombre des factures' ne peut pas être égal à zéro</entry>
+
+    <entry key="theInputTypeFieldNoOfBillsMustBeNumber_Eng">'No Of Bills' must be Number</entry>
+    <entry key="theInputTypeFieldNoOfBillsMustBeNumber_Arb">يجب تحديد عدد السندات بالأرقام فقط</entry>
+    <entry key="theInputTypeFieldNoOfBillsMustBeNumber_Fr">Le 'Nombre des factures' doit être un nombre</entry>
+
+    <entry key="theInputFypeFieldPayableAtMustBeNumber_Eng">'Payable At' must be Number</entry>
+    <entry key="theInputFypeFieldPayableAtMustBeNumber_Arb">يجب تحديد حقل 'ُيُدفع بتاريخ' بالأرقام </entry>
+    <entry key="theInputFypeFieldPayableAtMustBeNumber_Fr">Le champ 'Payable le' doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldPayEveryMustBeNumber_Eng">'Pay Every' must be Number</entry>
+    <entry key="theInputTypeFieldPayEveryMustBeNumber_Arb"> يجب تحديد حقل 'يُدفَع كل' بالأرقام </entry>
+    <entry key="theInputTypeFieldPayEveryMustBeNumber_Fr">Le champ 'Payer chaque' doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldSettlementAccMustBeNumber_Eng">'Settlement Acc' must be Number</entry>
+    <entry key="theInputTypeFieldSettlementAccMustBeNumber_Arb">يجب تحديد حقل بيانات حساب التسديد' بالأرقام</entry>
+    <entry key="theInputTypeFieldSettlementAccMustBeNumber_Fr">'Le compte de règlement' doit être un nombre</entry>
+
+    <entry key="theInputTypeFieldToDocumentNumberMustBeNumber_Eng">'To Document Number' must be Number</entry>
+    <entry key="theInputTypeFieldToDocumentNumberMustBeNumber_Arb"> يجب تحديد حقل " رقم المستند النهائي' بالأرقام  </entry>
+    <entry key="theInputTypeFieldToDocumentNumberMustBeNumber_Fr">Le champ ' numéro du document final' doit être un nombre </entry>
+
+    <entry key="theInputTypeFieldTotalAmountMustBeNumber_Eng">'Total Amount' must be Number</entry>
+    <entry key="theInputTypeFieldTotalAmountMustBeNumber_Arb"> يجب تحديد 'إجمالي المبلغ' بالأرقام </entry>
+    <entry key="theInputTypeFieldTotalAmountMustBeNumber_Fr">'Le montant total' doit être un nombre</entry>
+
+    <entry key="theNumberOfChequesMustBeInteger_Eng">the number Of Cheques must be integer</entry>
+    <entry key="theNumberOfChequesMustBeInteger_Arb">يجب أن يكون عدد الشيكات رقمًا  تاما</entry>
+    <entry key="theNumberOfChequesMustBeInteger_Fr">Le nombre des chèques doit être un nombre entier</entry>
+
+	<entry key="thisSessionWillExpireIn_Eng">This session will expire in </entry>
+    <entry key="thisSessionWillExpireIn_Arb">هذه الجلسة ستنتهي خلال </entry>
+    <entry key="thisSessionWillExpireIn_Fr">Cette Session se terminera dans </entry>
+
+	<entry key="thursday_Eng">Thursday</entry>
+    <entry key="thursday_Arb">الخميس</entry>
+    <entry key="thursday_Fr">Jeudi</entry>
+
+    <entry key="toAccountMustBeANumber_Eng">to Account must be a number.</entry>
+    <entry key="toAccountMustBeANumber_Arb">يجب تحديد حقل 'الحساب النهائي' بالأرقام</entry>
+    <entry key="toAccountMustBeANumber_Fr">Le champ 'compte final' doit être un nombre*</entry>
+
+    <entry key="toDateShouldBeLessThanOrEqualToCurrentDate_Eng">please make sure that the 'Date To' is the current date OR before</entry>
+    <entry key="toDateShouldBeLessThanOrEqualToCurrentDate_Arb">الرجاء التأكد من أن "التاريخ النهائي" هو التاريخ الحالي أو يسبقه</entry>
+    <entry key="toDateShouldBeLessThanOrEqualToCurrentDate_Fr">Assurez-vous que la 'Date finale' est la date actuelle ou la précède</entry>
+
+    <entry key="totalAmountExceedsBalance_Eng">Total Amount exceeds Available Balance</entry>
+    <entry key="totalAmountExceedsBalance_Arb"> يتعدى المبلغ الرصيد المتوافر</entry>
+    <entry key="totalAmountExceedsBalance_Fr">Le montant total dépasse le solde disponible</entry>
+
+    <entry key="transferFromIsMissing_Eng">Select an account to proceed</entry>
+    <entry key="transferFromIsMissing_Arb">حساب التحويل ناقص</entry>
+    <entry key="transferFromIsMissing_Fr">Veuillez sélectionner un compte pour continuer</entry>
+    
+    <entry key="tuesday_Eng">Tuesday</entry>
+    <entry key="tuesday_Arb">الثلاثاء</entry>
+    <entry key="tuesday_Fr">Mardi</entry>
+    
+    <entry key="totalFinancialCommitmentMustBeNumber_Eng">Total Financial Commitment Must Be Number</entry>
+    <entry key="totalFinancialCommitmentMustBeNumber_Arb">totalFinancialCommitmentMustBeNumber</entry>
+    <entry key="totalFinancialCommitmentMustBeNumber_Fr">totalFinancialCommitmentMustBeNumber</entry>
+        
+	<entry key="tradeInMustBeNumber_Eng">Trade-In  Must Be Number</entry>
+    <entry key="tradeInMustBeNumber_Arb">tradeInMustBeNumber</entry>
+    <entry key="tradeInMustBeNumber_Fr">tradeInMustBeNumber</entry>
+    
+    <entry key="transactionCouldNotBeProcessed_Eng">Transaction Could not be processed, please contact Bank</entry>
+    <entry key="transactionCouldNotBeProcessed_Arb">Transaction Could not be processed, please contact Bank</entry>
+    <entry key="transactionCouldNotBeProcessed_Fr">Transaction Could not be processed, please contact Bank</entry>
+    
+   	<entry key="totalFinancingRequiredMustBeNumber_Eng">Total Financing Required Must Be Number</entry>
+    <entry key="totalFinancingRequiredMustBeNumber_Arb">totalFinancingRequiredMustBeNumber</entry>
+    <entry key="totalFinancingRequiredMustBeNumber_Fr">totalFinancingRequiredMustBeNumber</entry>
+    
+    <entry key="totalPayableMustBeNumber_Eng">Total Payable Must Be Number</entry>
+    <entry key="totalPayableMustBeNumber_Arb">totalPayableMustBeNumber</entry>
+    <entry key="totalPayableMustBeNumber_Fr">totalPayableMustBeNumber</entry>
+    
+    <!-- ************************************* U *************************************-->
+	<entry key="userNameCannotBeEmpty_Eng">User Name Can't Be Empty</entry>
+    <entry key="userNameCannotBeEmpty_Arb">لا يمكن أن يكون  اسم المستخدم فارغا </entry>
+    <entry key="userNameCannotBeEmpty_Fr">Le nom de l'utilisateur ne peut pas être vide</entry>
+
+    <entry key="userId1Invalid_Eng">user ID 1 not valid it should be between 6 and 12 latin characters</entry>
+    <entry key="userId1Invalid_Arb">إن رقم المستخدم 1 غير صحيح  و يجب أن  يتراوح بين 6 إلى 12 حرفاً لاتينياً</entry>
+    <entry key="userId1Invalid_Fr">L'Id du premier utilisateur est invalide et doit varier entre 6 et 12 caractères latins</entry>
+
+    <entry key="userId2Invalid_Eng">user ID 2 not valid it should be between 6 and 12 latin characters</entry>
+    <entry key="userId2Invalid_Arb">إن رقم المستخدم 2 غير صحيح  و يجب أن  يتراوح بين 6 إلى 12 حرفاً لاتينياًً</entry>
+    <entry key="userId2Invalid_Fr">L'Id du deuxième utilisateur est invalide et doit varier entre 6 et 12 caractères latins</entry>
+
+    <entry key="userId3Invalid_Eng">user ID 3 not valid it should be between 6 and 12 latin characters</entry>
+    <entry key="userId3Invalid_Arb">إن رقم المستخدم 1 غير صحيح  و يجب أن  يتراوح بين 6 إلى 12 حرفاً لاتينياً</entry>
+    <entry key="userId3Invalid_Fr">L'Id du troisième utilisateur est invalide et doit varier entre 6 et 12 caractères latins</entry>
+
+    <entry key="userMustHaveEMailtoDoThisAction_Eng">User must have valid e-mail to do this action</entry>
+    <entry key="userMustHaveEMailtoDoThisAction_Arb">يجب أن يكون للمستخدم بريد ألكتروني  صحيح للقيام بهذه العملية</entry>
+    <entry key="userMustHaveEMailtoDoThisAction_Fr">L'utilisateur doit avoir un courriel valide pour exécuter cette action</entry>
+
+    <entry key="userNameNotValid_Eng">User Name Is Not Valid</entry>
+    <entry key="userNameNotValid_Arb">إسم المستخدم غير صحيح </entry>
+    <entry key="userNameNotValid_Fr">Le nom de l'utilisateur est invalide</entry>
+
+    <entry key="userIDCannotBeEmpty_Eng">User ID Can't Be Empty</entry>
+    <entry key="userIDCannotBeEmpty_Arb">لا يمكن أن يكون رقم المستخدم فارغا</entry>
+    <entry key="userIDCannotBeEmpty_Fr">L'ID de l'utilisateur ne peut pas être vide</entry>
+
+    <entry key="userIDLengthBet6And12_Eng">User ID Should Be between 6 and 12 Characters</entry>
+    <entry key="userIDLengthBet6And12_Arb">يجب أن يتراوح رقم المستخدم بين 6 إلى 12 حرفاًا</entry>
+    <entry key="userIDLengthBet6And12_Fr">L'ID de l'utilisateur doit varier entre 6 et 12 caractères</entry>
+
+	<entry key="userIDLengthMoreThen20_Eng">User ID Can't Be More Than 20 Characters</entry>
+	<entry key="userIDLengthMoreThen20_Arb">لا يمكن أن  يتجاوز رقم المستخدم  الـ 20 حرفًا</entry>
+	<entry key="userIDLengthMoreThen20_Fr">L'ID de l'utilisateur ne doit pas dépasser les 20 caractères</entry>
+	
+	<entry key="userIDCannotContSpaceOrSpecialChar_Eng">User ID Can't Contain Space Or Special Characters</entry>
+	<entry key="userIDCannotContSpaceOrSpecialChar_Arb">لا يتضمن اسم المستخدم فراغًا أو أحرف مميزة </entry>
+	<entry key="userIDCannotContSpaceOrSpecialChar_Fr">L'ID de l'utilisateur ne doit pas contenir des espaces ou des caractères spéciaux</entry>
+	
+	<entry key="userIDCannotContSpace_Eng">User ID Can't Contain Space</entry>
+	<entry key="userIDCannotContSpace_Arb">لا يتضمن اسم المستخدم فراغًا</entry>
+	<entry key="userIDCannotContSpace_Fr">L'ID de l'utilisateur ne doit pas contenir des espaces</entry>
+
+	<entry key="userNameCannotContSpace_Eng">User Name Can't Contain Space</entry>
+	<entry key="userNameCannotContSpacer_Arb">لا يتضمن اسم المستخدم فراغًا </entry>
+	<entry key="userNameCannotContSpace_Fr">L'ID de l'utilisateur ne doit pas contenir des espaces</entry>
+	
+    <entry key="userPasswdCannotBeEmpty_Eng">Password Can't Be Empty</entry>
+    <entry key="userPasswdCannotBeEmpty_Arb">لا يمكن أن تكون كلمة المرور فارغة </entry>
+    <entry key="userPasswdCannotBeEmpty_Fr">Le mot de passe ne doit pas être vide</entry>
+
+    <entry key="userPasswdLengthBet6And20_Eng">Password should be between 6 and 20 characters</entry>
+    <entry key="userPasswdLengthBet6And20_Arb"> يجب أن تتراوح  كلمة المرور بين 6 و 20 حرفًا </entry>
+    <entry key="userPasswdLengthBet6And20_Fr">Le mot de passe doit varier entre 6 et 20 caractères</entry>
+
+    <entry key="userPasswdCannotContainSpace_Eng">Password Can't Contain Space</entry>
+    <entry key="userPasswdCannotContainSpace_Arb"> لا يمكن أن تحوي كلمة المرور  فراغًا</entry>
+    <entry key="userPasswdCannotContainSpace_Fr">Le mot de passe ne doit pas contenir des espaces</entry>
+
+    <entry key="userPasswdDiffUserID_Eng">Password should be different than user ID</entry>
+    <entry key="userPasswdDiffUserID_Arb">تكون كلمة المرور مختلفة عن رقم المستخدم</entry>
+    <entry key="userPasswdDiffUserID_Fr">Le mot de passe doit être différent de l'ID de l'utilisateur</entry>
+
+    <entry key="userPasswdAreDiffrent_Eng">Passwords Are Different Please Re-enter Again</entry>
+    <entry key="userPasswdAreDiffrent_Arb">كلمات المرور غير متشابهة، الرجاء إعادة الإدخال</entry>
+    <entry key="userPasswdAreDiffrent_Fr">Les mots de passe sont différents. Réecrivez-les.</entry>
+    
+    <!-- ************************************* V *************************************-->
+    <entry key="vehicleMustBeNumber_Eng">Vehicle Must Be Number</entry>
+    <entry key="vehicleMustBeNumber_Arb">vehicleMustBeNumber</entry>
+    <entry key="vehicleMustBeNumber_Fr">vehicleMustBeNumber</entry>
+        
+    <entry key="vehiProFormaInvoiceAuctionPriceMustBeNumber_Eng">Pro-Forma Invoice/Auction Price Must Be Number</entry>
+    <entry key="vehiProFormaInvoiceAuctionPriceMustBeNumber_Arb">vehiProFormaInvoiceAuctionPriceMustBeNumber</entry>
+    <entry key="vehiProFormaInvoiceAuctionPriceMustBeNumber_Fr">vehiProFormaInvoiceAuctionPriceMustBeNumber</entry>
+	
+	<!-- ************************************* W *************************************-->
+	<entry key="wednesday_Eng">Wednesday</entry>
+    <entry key="wednesday_Arb">الأربعاء </entry>
+    <entry key="wednesday_Fr">Mercredi</entry>
+	
+	
+    <entry key="WrongPassword_Eng">Wrong Password</entry>
+    <entry key="WrongPassword_Arb">كلمة السر خاطئةّ </entry>
+    <entry key="WrongPassword_Fr">Faux mot de passe</entry>
+
+   <!--  <entry key="WrongPin_Eng">Wrong PIN</entry>
+    <entry key="WrongPin_Arb">رقم التعريف الشخصي خاطئ </entry>
+    <entry key="WrongPin_Fr">Faux NIP</entry> -->
+	
+	<!-- ************************************* Y *************************************-->
+	<entry key="youCannotAddOneOfYourAccounts_Eng">You cannot add one of your accounts</entry>
+	<entry key="youCannotAddOneOfYourAccounts_Arb">لا يمكنك تحويل اختيار احد حساباتك </entry>
+	<entry key="youCannotAddOneOfYourAccounts_Fr">Vous ne pouvez pas choisir un de votre comptes</entry>
+
+	<entry key="youCannotTransferFundsToOneOfYourAccountsUsingThisSection_Eng">You cannot transfer funds to one of your accounts using this section</entry>
+	<entry key="youCannotTransferFundsToOneOfYourAccountsUsingThisSection_Arb">لا يمكنك تحويل اختيار احد حساباتك </entry>
+	<entry key="youCannotTransferFundsToOneOfYourAccountsUsingThisSection_Fr">Vous ne pouvez pas choisir un de votre comptes</entry>
+    
+    <entry key="youHaveExceededTheLimit_Eng">you Have Exceeded the Limit</entry>
+    <entry key="youHaveExceededTheLimit_Arb">لقد تجاوزت الحدود</entry>
+    <entry key="youHaveExceededTheLimit_Fr">Vous avez dépassé les limites</entry>
+
+    <entry key="youMustToTypeAContent_Eng">you must type a content</entry>
+    <entry key="youMustToTypeAContent_Arb">الرجاء إدخال المضمون</entry>
+    <entry key="youMustToTypeAContent_Fr">Vous devez taper le contenu</entry>
+
+    <entry key="youMustToTypeASubject_Eng">you must type a subject</entry>
+    <entry key="youMustToTypeASubject_Arb">الرجاء تحديد الموضوع</entry>
+    <entry key="youMustToTypeASubject_Fr">Vous devez taper un sujet</entry>
+
+    <entry key="yourMessageGoesOverTheLimit_Eng">your Message goes over the limit</entry>
+    <entry key="yourMessageGoesOverTheLimit_Arb">لقد تخطت رسالتك الأحرف المحددة</entry>
+    <entry key="yourMessageGoesOverTheLimit_Fr">Votre message a dépassé la limite</entry>
+
+    <entry key="youMustCalculateBefore_Eng">You must calculate before viewing the schedule</entry>
+    <entry key="youMustCalculateBefore_Arb"> يجب إجراء العملية الحسابية قبل الإطلاع على الجدول</entry>
+    <entry key="youMustCalculateBefore_Fr">Vous devez faire le calcul avant de visualiser le programme</entry>
+
+        <entry key="yourPasswordMustContainCharactersAndNumbers_Eng">The Password should consist of 8 to 12 alphanumeric and special characters, including lower and upper cases</entry>
+    <entry key="yourPasswordMustContainCharactersAndNumbers_Arb"> يجب أن تتألف كلمة المرور من 8 إلى 12 حرفا عدديا رقميا وأحرفا خاصة إضافة إلى الأحرف الكبيرة والصغيرة.&gt;</entry>
+    <entry key="yourPasswordMustContainCharactersAndNumbers_Fr">Le mot de passe doit contenir entre 8 et 12 caractères spéciaux et alphanumériques,y compris les majuscules et les minuscules</entry>
+
+    <entry key="yourPasswordMustContainSpecificNumberOfCharacter_Eng">The Password should consist of 8 to 12 alphanumeric and special characters, including lower and upper cases</entry>
+    <entry key="yourPasswordMustContainSpecificNumberOfCharacter_Arb">يجب أن تتألف كلمة المرور من 8 إلى 12 حرفا عدديا رقميا وأحرفا خاصة إضافة إلى الأحرف الكبيرة والصغيرة.&gt;</entry>
+    <entry key="yourPasswordMustContainSpecificNumberOfCharacter_Fr">Le mot de passe doit contenir entre 8 et 12 caractères spéciaux et alphanumériques,y compris les majuscules et les minuscules</entry>
+
+    <entry key="yourPinMustContainCharactersAndNumbers_Eng">The Pin should consist of 8 to 12 alphanumeric and special characters, including lower and upper cases</entry>
+    <entry key="yourPinMustContainCharactersAndNumbers_Arb"> يجب أن تتألف كلمة التعريف الشخصي من 8 إلى 12 حرفا عدديا رقميا وأحرفا خاصة إضافة إلى الأحرف الكبيرة والصغيرة.&gt;</entry>
+    <entry key="yourPinMustContainCharactersAndNumbers_Fr">Le nip doit contenir entre 8 et 12 caractères spéciaux et alphanumériques,y compris les majuscules et les minuscules</entry>
+
+    <entry key="yourPinMustContainSpecificNumberOfCharacter_Eng">The Pin should consist of 8 to 12 alphanumeric and special characters, including lower and upper cases</entry>
+    <entry key="yourPinMustContainSpecificNumberOfCharacter_Arb">يجب أن تتألف كلمة التعريف الشخصي من 8 إلى 12 حرفا عدديا رقميا وأحرفا خاصة إضافة إلى الأحرف الكبيرة والصغيرة.&gt;</entry>
+    <entry key="yourPinMustContainSpecificNumberOfCharacter_Fr">Le nip doit contenir entre 8 et 12 caractères spéciaux et alphanumériques,y compris les majuscules et les minuscules</entry>
+
+    <entry key="youHaveExceededTheLimit_Eng">you Have Exceeded the Limit</entry>
+    <entry key="youHaveExceededTheLimit_Arb">لقد تجاوزت الحدود</entry>
+    <entry key="youHaveExceededTheLimit_Fr">Vous avez dépassé les limites</entry>
+
+    <entry key="youHaveReachTheMaximumLenghtAllowed_Eng"> you have reached the maximum limit allowed </entry>
+    <entry key="youHaveReachTheMaximumLenghtAllowed_Arb"> لقد تجاوزت الحدود القصوى المسموح بها</entry>
+    <entry key="youHaveReachTheMaximumLenghtAllowed_Fr">Vous avez atteint les limites maximales permises</entry>
+    
+    <entry	key="yourRequestSubmitted_Eng">Your request has been accepted and will be processed.</entry>
+	<entry	key="yourRequestSubmitted_Arb">Your request has been accepted and will be processed.</entry>
+	<entry	key="yourRequestSubmitted_Fr">Your request has been accepted and will be processed.</entry>
+	
+	<entry key="requestNo_Eng">Reference  Number</entry>
+    <entry key="requestNo_Arb">رقم الطلب</entry>
+    <entry	key="requestNo__Fr">Numero de la Requete</entry>
+
+    <entry key="WrongPin_Eng">Wrong TAC</entry>
+    <entry key="WrongPin_Arb">Wrong TAC </entry>
+    <entry key="WrongPin_Fr">Wrong TAC</entry>
+
+    <entry key="requestTACError_Eng">Error while requesting a TAC, please try later.</entry>
+    <entry key="requestTACError_Arb">Error while requesting a TAC, please try later.</entry>
+    <entry key="requestTACError_Fr">Error while requesting a TAC, please try later.</entry>
+
+    <entry	key="studentMatricNo_Eng">Student Matric Number</entry>
+	<entry	key="studentMatricNo_Arb">Student Matric Number</entry>
+	<entry	key="studentMatricNo_Fr">Student Matric Number</entry>
+	
+	<entry	key="studentICNumber_Eng">Student IC Number</entry>
+	<entry	key="studentICNumber_Arb">Student IC Number</entry>
+	<entry	key="studentICNumber_Fr">Student IC Number</entry>
+	
+	<entry	key="studentName_Eng">Student Name</entry>
+	<entry	key="studentName_Arb">Student Name</entry>
+	<entry	key="studentName_Fr">Student Name</entry>
+	
+	<entry	key="billersAccountReferenceNumber_Eng">Bill Account Number</entry>
+	<entry	key="billersAccountReferenceNumber_Arb">BILL ACCOUNT NUMBER</entry>
+	<entry	key="billersAccountReferenceNumber_Fr">BILL ACCOUNT NUMBER</entry>
+	
+	<entry	key="billNo1_Eng">Bill Reference No 1</entry>
+	<entry	key="billNo1_Arb">BILLReferenceNO#1</entry>
+	<entry	key="billNo1_Fr">BILLReferenceNO#1</entry>
+	
+	<entry	key="billNo2_Eng">Bill Reference No 2</entry>
+	<entry	key="billNo2_Arb">BILLReferenceNO#2</entry>
+	<entry	key="billNo2_Fr">BILLReferenceNO#2</entry>
+	
+	<entry	key="cdsMessage_Eng">Refer To your branch to register for a CDS account</entry>
+	<entry	key="cdsMessage_Arb">REFER TO YOUR BRANCH TO REGISTER FOR A CDS ACCOUNT</entry>
+	<entry	key="cdsMessage_Fr">REFER TO YOUR BRANCH TO REGISTER FOR A CDS ACCOUNT</entry>
+	
+	<!-- ************************************* NOT translated *************************************-->
+	<!-- ************************************* NOT translated *************************************-->
+	<!-- ************************************* NOT translated *************************************-->
+	
+	<entry	key="invalidIdNumber_Eng">Invalid Id Number</entry>
+	<entry	key="invalidIdNumber_Arb">INVALID ID NUMBER</entry>
+	<entry	key="invalidIdNumber_Fr">INVALID ID NUMBER</entry>
+	
+	<entry	key="inTransferCurrency_Eng">in transfer currency</entry>
+	<entry	key="inTransferCurrency_Arb">IN TRANSFER CURRENCY</entry>
+	<entry	key="inTransferCurrency_Fr">IN TRANSFER CURRENCY</entry>
+	
+	<entry	key="amountIsLessThanMinimumAmountSpecified_Eng">Amount is less than minimum amount specified</entry>
+	<entry	key="amountIsLessThanMinimumAmountSpecified_Arb">AMOUNT IS LESS THAN MINIMUM AMOUNT SPECIFIED</entry>
+	<entry	key="amountIsLessThanMinimumAmountSpecified_Fr">AMOUNT IS LESS THAN MINIMUM AMOUNT SPECIFIED</entry>
+	
+	<entry	key="amountIsGreaterThanMaximumAmountSpecified_Eng">Amount is greater than maximum amount specified</entry>
+	<entry	key="amountIsGreaterThanMaximumAmountSpecified_Arb">AMOUNT IS GREATER THAN MAXIMUM AMOUNT SPECIFIED</entry>
+	<entry	key="amountIsGreaterThanMaximumAmountSpecified_Fr">AMOUNT IS GREATER THAN MAXIMUM AMOUNT SPECIFIED</entry>	
+
+	<entry	key="pleaseEnterAvalidCustomerReference_Eng">Please enter a valid Biller Account Number</entry>
+	<entry	key="pleaseEnterAvalidCustomerReference_Arb">Please enter a valid Biller Account Number</entry>
+	<entry	key="pleaseEnterAvalidCustomerReference_Fr">Please enter a valid Biller Account Number</entry>
+	
+</properties>

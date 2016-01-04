@@ -1,0 +1,924 @@
+/* General */
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+table #mainStructure {
+	padding:0px;
+	margin:0px;
+	height: 100%;
+	width: 100%;
+	
+}
+#header { 
+	margin: 0px; 
+	padding: 0px;
+	color: #808080;
+	vertical-align: top;
+	width: 100%;
+}
+#leftMenu {
+	vertical-align: top;
+	width: 12%;
+	height: 100%;
+	/*background: #02529B;*/
+	/*background: #00529B;*/
+	background: url('../assets/common/back.jpg') repeat-y;
+}
+
+div#midBackground div#topBackground{
+height: 480px; 
+background: url('../assets/common/leftMenu.jpg') no-repeat left top;
+}
+div#midBackground{
+width: 183px;	
+background: url('../assets/common/back.jpg') repeat-y;
+}
+div#midBackground div#bottomBackground{
+height: 241px;	
+background: url('../assets/common/back.jpg')no-repeat left bottom;
+}
+
+td.siteLogo1{
+	padding-top: 9px;
+	padding-left: 25px;
+	padding-bottom: 9px;
+}
+div.siteLogo1{
+	width: 376px;
+	height: 75px;
+	background-image: url("../assets/common/BankLogo1.gif");
+	
+}
+td.siteLogo2{
+	padding-right: 25px;
+}
+div.siteLogo2{
+	width: 98px;
+	height: 71px;
+	background-image: url("../assets/common/BankLogo2.gif");
+}
+td #banner{
+	border-bottom: 2px solid #F88F1D;
+	
+}
+
+
+
+/*Link*/
+A {
+	color: #10659E;
+	text-decoration: none;
+}
+
+A:link {
+	/*color: #10659E;*/
+	/*color: #ffffff;*/
+}
+
+/* MISC General */
+.warning {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: orange;
+}
+.msg_box{
+	border :medium;
+	font-family: Tahoma;
+	font-size: 10px;
+	color: orange;
+	text-align: center;
+	
+}
+.message {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+
+.StandardTextLeftMenu {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.leftMenuInfo {
+	font-size: 10px;
+	color: #FFFFFF;
+	border-bottom: 2px solid #F7931E; 
+}
+
+.languageLink {
+	font-size: 11px;
+/*	color: #FFFFFF;*/
+	font-family: Tahoma;
+}
+
+.loginLanguageLink {
+	font-size: 12px;
+	color: #10659i;
+	font-family: Tahoma;
+}
+
+.StandardTextNoDataFound {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+}
+
+.StandardTextNavigationBar {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+}
+
+.FooterStyle {
+	/*border-top: 2px solid #F88F1D;*/	
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #00529B;
+	text-align: center;
+}
+.FooterStyle2 {
+	/*border-top: 2px solid #F88F1D;*/	
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #7C7676;
+	text-align: center;
+}
+
+
+.DisabledField {
+	background: #CCCCCC;
+}
+
+.horizontalMenu {
+	background: #E4E1E1;
+	width: 100%;
+	border-bottom: 2px solid #2B629C;
+	
+}
+
+/*Site Main Colors*/
+.SiteColor1 { /*Red, Horizontal Lines*/
+	background: #F88F1D;
+}
+
+.SiteColor2 { /*Blue, LeftMenu*/
+	background: #00529B;
+}
+
+/* Main Elements */
+.UpHeader {
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Report Header Row Specifications */
+.reportHeader {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #00529B;
+	font-weight: bold;
+	background: #FFFFFF;
+}
+
+.reportHeaderCenter {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #00529B;
+	font-weight: bold;
+	text-align: center;
+	background: #FFFFFF;
+}
+
+/* Report Header Styles */
+.HeaderLink {
+	font-family: Tahoma;
+	font-size: 12px;
+	/*color: #00529B;*/
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+.HeaderNoLink {
+	font-family: Tahoma;
+	font-size: 12px;
+	/*color: #00529B;*/
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*Report Rows Coloring*/
+.RepHeaderCol {
+	/*background: #FD9D60;*/
+	background: #00529B;
+	
+}
+
+.RepDetailsCol1 {
+	/*background: #CCFFFF;*/
+	/*background: #DCEBF3;*/
+	background: #DDEBF4;
+	
+}
+
+.RepDetailsCol2 {
+	background: #FFFFFF;
+}
+
+.HeaderUserInfoCol{
+	background: #7C7676;
+}
+.HeaderUserInfo{
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.CenterHeaderUserInfo{
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Element Alignement in Tables */
+.serialNumberStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.serialNumberStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.serialNumberStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*---------Currency-----------*/
+.currencyStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.currencyStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.currencyStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*-------Number-----------*/
+.numberStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	border: 1px solid rgb(10, 118, 172);
+	padding-right: 2px;
+}
+.numberStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	border: 1px solid rgb(10, 118, 172);
+	padding-right: 2px;
+}
+.numberStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 1px solid rgb(10, 118, 172);
+	padding-left: 2px;
+}
+
+/*---------No Of Days----------*/
+.noOfDaysStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.noOfDaysStyleFr{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.noOfDaysStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*---------Percentage----------*/
+.percentageStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	border: 1px solid rgb(10, 118, 172);
+}
+.percentageStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	border: 1px solid rgb(10, 118, 172);
+}
+.percentageStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*---------Card Number---------*/
+.cardNumberStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.cardNumberStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.cardNumberStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*---------Accont Number---------*/
+.accountNumberStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.accountNumberStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.accountNumberStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*--------Date---------*/
+.dateStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.dateStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.dateStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*-------String------------*/
+.stringStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 1px solid rgb(10, 118, 172);
+	padding-left: 2px;
+}
+.stringStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 1px solid rgb(10, 118, 172);
+	padding-left: 2px;
+}
+.stringStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	border: 1px solid rgb(10, 118, 172);
+	padding-right: 2px;
+}
+
+/*-------String2------------*/
+.stringsStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	padding-left: 2px;
+}
+.stringsStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	padding-left: 2px;
+}
+.stringsStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	padding-right: 2px;
+}
+/*--------Button----------*/
+.buttonStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.buttonStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.buttonStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*--------Quantity-----------*/
+.quantityStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.quantityStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.quantityStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/*--------Link----------*/
+.linkStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.linkStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.linkStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+.linkStyleWithoutBorderEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 0px solid rgb(10, 118, 172);
+}
+
+.linkStyleWithoutBorderFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 0px solid rgb(10, 118, 172);
+}
+
+.linkStyleWithoutBorderArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	border: 0px solid rgb(10, 118, 172);
+}
+/*--------Image----------*/
+.imageStyleEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.imageStyleFr {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+.imageStyleArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	border: 1px solid rgb(10, 118, 172);
+}
+
+/* Froms Styles */
+.allPageHeader {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+	/*text-decoration: underline;*/
+}
+
+.FrmHeader {
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.FrmHeaderCol {
+	background: #F88F1D;
+}
+
+.FrmCompTitle {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+}
+
+.FrmCompTitleEng {
+	direction: rtl;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+}
+.FrmCompTitleFr {
+	direction: rtl;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+}
+.FrmCompTitleArb {
+	direction: rtl;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-align: right;
+	font-weight: normal;
+}
+
+.FrmCompTitEng {
+	direction: ltr;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	font-weight: bolder;
+}
+.FrmCompTitFr {
+	direction: ltr;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	font-weight: bolder;
+}
+.FrmCompTitArb {
+	direction: ltr;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	font-weight: bolder;
+}
+
+.FrmSubTitle {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #00529B;
+	font-weight: bold;
+}
+
+.FrmDateFromat {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+}
+
+.FrmCol1 {
+	background: #FFFFFF;
+}
+
+.FrmCol2 {
+	background: #FFFFFF;
+}
+
+.FrmEditDataColor {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #F88F1D;
+	font-weight: bolder;
+}
+
+.mainDataTable {
+	border-color: #000000;
+	vertical-align: top;
+}
+
+/* Button Style */
+input.button {
+	padding: 0px;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #336;
+	border: 2px solid #E4E1E1;
+	background: #e4e1e1;
+}
+
+input.button:hover {
+	cursor: pointer;
+}
+
+/*Pin Password*/
+input.promptbox {
+	border: 1 solid #0000FF;
+	background-color: white;
+	width: 97%;
+	font-family: arial;
+	font-size: 12;
+	color: black;
+}
+
+table.promptbox {
+	border: 1 solid #ccccff;
+	background-color: #ECE9D8;
+	color: black;
+	padding-left: 2;
+	padding-right: 2;
+	padding-bottom: 2;
+	font-family: arial;
+	font-size: 12;
+}
+
+td.titlebar {
+	background-color: #0055EA;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 12;
+}
+/* added by Houssein Dhayne to Centralize the style of all requests tables */
+.requestTable {
+	border-collapse: collapse;
+	border-color: #00529B;
+	
+}
+/* * added by Maher el kik to Centralize the style of all report tables */
+.reportTable {
+	padding-left: 5;
+	padding-right: 5;
+	padding-top: 5;
+	padding-bottom: 0;
+	border-collapse: collapse;
+	
+}
+.navigation{
+	padding-left: 5;
+	padding-right: 5;
+	border-collapse: collapse;
+	
+}
+/* End * */
+
+.UnderHeaderLeftWithoutBorderEng {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+.UnderHeaderLeftWithoutBorderFr{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+.UnderHeaderLeftWithoutBorderArb {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #000000;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.totalStyleEng{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	border: 1px solid rgb(10, 118, 172);
+	text-align: right;
+	padding: 2px; 	
+}
+.totalStyleFr{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	border: 1px solid rgb(10, 118, 172);
+	text-align: right;
+	padding: 2px; 	
+}
+.totalStyleArb{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	border: 1px solid rgb(10, 118, 172);
+	text-align: left; 	
+	padding: 2px;
+}
+
+.redLabel
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #F88F1D;
+	font-weight: bold;	
+}
+
+.loadingImg {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-top: #ddd 1px solid;
+	display: block;
+	background: #FFFFFF;
+	left: 0px;
+	border-bottom: #ddd 1px solid;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	filter: alpha(opacity=35);
+	-moz-opacity:.35;
+	opacity: .35;
+}
+
+.loadImgStyle{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  margin-top: -137px;
+	  margin-left: -182px;
+}
+
+legend {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12;
+	color: #173283;
+}
+
+
+.newsFeed{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+	width:800px;
+	clear: left;	
+	position:absolute;		
+}
+
+
+.newsFeed ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type:none;
+}
+
+.newsFeed ul li {
+	margin: 0px 0px 8px 2px;
+	padding: 0px 0px 0px 0px;
+}
+
+.newsFeed ul li a 
+{
+	display: block;
+	background-color:white;
+	padding: 5px 5px 5px 0.5em;
+	color:#666666;	
+	font-family:Arial;
+	font-size:11px;	
+	text-decoration: none;
+	width:inherit;
+	cursor:default;
+}
+
+/*.newsFeed ul li a:hover{
+	background-color:white;
+	color:#666666;
+	font-weight:bold;
+}*/
+
+.actionButton
+{
+	border:1px solid #2D669D;
+	font-family:Tahoma;
+	font-size:10px;
+	background-color:#E3E3E3;	
+	cursor:pointer;
+}
+
+.inputTextStyle
+{
+	text-transform:uppercase;
+}
