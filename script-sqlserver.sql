@@ -151,3 +151,52 @@ VALUES ('2014-01-29',86000,49,235,0,0,'95 oct','Mercedes Dawra',1,'RAV4');
 
 INSERT INTO ASSET (ASSET_TYPE,BRIEF_DESC,LONG_DESC,APPROX_PRICE,CURRENCY,DATE_ADDED,DATE_MODIFIED,NOTE) 
 VALUES ('home','livingroom','Living Room',3000000,'LBP','2014-03-16','2014-03-16','s');
+
+
+
+
+
+create table CARD_USAGE 
+(
+	USAGE_ID				INT			IDENTITY(1,1) not null ,
+   	CARD_ID 				INT       	not null,
+   	USAGE_DATE   			DATETIME	     null,
+   	STORE				VARCHAR(40)		null,
+	DESCRIPTION    		VARCHAR(100)	     null,
+   	AMOUNT    			NUMERIC(20,2)       null,
+   	REMAINING_TO_BE_PAID    	NUMERIC(20,2)       null,
+   	IS_PAID				BIT		null,
+   	
+   	constraint PK_CARD_USAGE primary key (USAGE_ID),
+	constraint fk_CARD foreign key (CARD_ID) references CARD (CARD_ID)
+);  
+insert into CARD_USAGE (CARD_ID, USAGE_DATE, STORE, DESCRIPTION, AMOUNT, REMAINING_TO_BE_PAID, IS_PAID) values
+(1, '2016-09-12', 'OGERO-WEB', 'pay july landphone bill', 42, 0, 0);
+
+select * from CARD_USAGE order by USAGE_ID desc
+
+
+
+
+
+
+
+
+
+create table CARD 
+(
+	CARD_ID			INT			IDENTITY(1,1) not null ,
+   	CARD_TYPE 		VARCHAR(20)         not null,
+   	CARD_NO    		VARCHAR(20)	     null,
+   	CARD_NAME			VARCHAR(20)		null,
+	CARD_EXP_DATE    	DATETIME		     null,
+   	CARD_LIMIT    		NUMERIC(20,0)       null,
+   	AVAILABLE_AMOUNT    NUMERIC(20,2)       null,
+   	
+   	constraint PK_CARD primary key (CARD_ID)
+); 
+insert into CARD (CARD_TYPE, CARD_NO, CARD_NAME, CARD_EXP_DATE, CARD_LIMIT, AVAILABLE_AMOUNT) VALUES
+('VISA', '5404123443211234', 'Douaihy Haytham', '2017-06-30', 7000, 5500)
+insert into CARD (CARD_TYPE, CARD_NO, CARD_NAME, CARD_EXP_DATE, CARD_LIMIT, AVAILABLE_AMOUNT) VALUES
+('MASTER', '4900000000000003', 'Douaihy Haytham', '2018-12-31', 3000, 2700) 
+
